@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddVehicleFragment"
+    android:background="@drawable/b3" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+
+
+            <TextView
+                android:id="@+id/txtAbout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="-5dp"
+                android:fontFamily="sans-serif-black"
+                android:gravity="left"
+                android:text="About This Vehicle"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/about_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtAbout"
+                android:layout_margin="10dp"
+                android:gravity="left"
+                android:text="Help buyers know more about the vehicle you are listing."
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+
+            <EditText
+                android:id="@+id/year"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/about_description"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#30ffffff"
+                android:hint="Year"
+                android:inputType="numberSigned"
+                android:maxLength="4"
+                android:padding="15dp"
+                android:textColor="@color/cyan"
+                android:textColorHint="@color/cyan"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/make"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/year"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:hint="Make"
+                android:padding="15dp"
+                android:textColor="@color/cyan"
+                android:textSize="15sp"
+                android:textColorHint="@color/cyan" />
+
+            <EditText
+                android:id="@+id/model"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/make"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:hint="Model"
+                android:padding="15dp"
+                android:textColor="@color/cyan"
+                android:textSize="15sp"
+                android:textColorHint="@color/cyan" />
+
+            <TextView
+                android:id="@+id/txtPrice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/model"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="-5dp"
+                android:gravity="left"
+                android:text="Price"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"/>
+
+            <TextView
+                android:id="@+id/price_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtPrice"
+                android:layout_margin="10dp"
+                android:gravity="left"
+                android:text="Enter your price for this vehicle."
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <EditText
+                android:id="@+id/price"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/price_description"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="#30ffffff"
+                android:hint="Price"
+                android:inputType="numberSigned"
+                android:padding="15dp"
+                android:textColor="@color/cyan"
+                android:textColorHint="@color/cyan"
+                android:textSize="15sp" />
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginTop="10dp"
+                android:layout_below="@id/price"
+                android:background="@color/white" />
+
+
+            <TextView
+                android:id="@+id/txtDescription"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/divider"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="10dp"
+                android:layout_marginBottom="-5dp"
+                android:gravity="left"
+                android:text="Description"
+                android:textColor="@color/white"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:fontFamily="sans-serif-black"/>
+
+            <TextView
+                android:id="@+id/description_description"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txtDescription"
+                android:layout_margin="10dp"
+                android:gravity="left"
+                android:text="Tell buyers anything that you haven't had the chance to include yet about your vehicle."
+                android:textColor="@color/white"
+                android:textSize="15sp"
+                android:fontFamily="sans-serif-condensed-medium"/>
+
+            <EditText
+                android:id="@+id/description"
+                android:layout_width="370dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/description_description"
+                android:layout_margin="10dp"
+                android:background="#30ffffff"
+                android:hint="Description (Optional)"
+                android:padding="15dp"
+                android:textColor="@color/cyan"
+                android:textSize="15sp"
+                android:textColorHint="@color/cyan" />
+
+            <Button
+                android:id="@+id/btnAddCar"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/description"
+                android:layout_centerHorizontal="true"
+                android:layout_margin="10dp"
+                android:backgroundTint="@color/white"
+                android:text="Add Car"
+                android:textColor="@color/black"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+
+
+
+
+
+
+
+</FrameLayout>

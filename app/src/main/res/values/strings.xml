@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">final_project</string>
-    <string name="inventory">Inventory</string>
-    <string name="autodealer_app">AutoDealer App</string>
-    <string name="add_vehicle">Add Vehicle</string>
+    <string name="inventory"> <font color="#FFFFFF">Inventory</font></string>
+    <string name="autodealer_app"><font color="#FFFFFF">AutoDealer App</font></string>
+    <string name="add_vehicle"><font color="#FFFFFF">Add Vehicle</font></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
 </resources>

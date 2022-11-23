@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/menuAddVehicle">
+
+    <fragment
+        android:id="@+id/menuInventory"
+        android:name="com.example.final_project.InventoryFragment"
+        android:label="Inventory"
+        tools:layout="@layout/fragment_inventory" />
+    <fragment
+        android:id="@+id/menuAddVehicle"
+        android:name="com.example.final_project.AddVehicleFragment"
+        android:label="Add Vehicle"
+        tools:layout="@layout/fragment_add_vehicle" />
+</navigation>
