@@ -3,10 +3,11 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/Users/tirth/AndroidStudioProjects/final_project/app/src/main/res/drawable/ic_logout.xml" value="0.2045" />
         <entry key="..\:/Users/tirth/AndroidStudioProjects/final_project/app/src/main/res/drawable/ic_person.xml" value="0.191" />
         <entry key="..\:/Users/tirth/AndroidStudioProjects/final_project/app/src/main/res/drawable/vie_bg.xml" value="0.1" />
         <entry key="..\:/Users/tirth/AndroidStudioProjects/final_project/app/src/main/res/layout/activity_forgot_password.xml" value="0.2546875" />
-        <entry key="..\:/Users/tirth/AndroidStudioProjects/final_project/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/tirth/AndroidStudioProjects/final_project/app/src/main/res/layout/activity_home.xml" value="0.2" />
         <entry key="..\:/Users/tirth/AndroidStudioProjects/final_project/app/src/main/res/layout/activity_main.xml" value="0.268" />
         <entry key="..\:/Users/tirth/AndroidStudioProjects/final_project/app/src/main/res/layout/activity_sign_up.xml" value="0.268" />
         <entry key="..\:/Users/tirth/AndroidStudioProjects/final_project/app/src/main/res/layout/fragment_add_vehicle.xml" value="0.268" />

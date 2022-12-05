@@ -7,5 +7,10 @@
     <item android:id="@+id/menuAddVehicle"
         android:icon="@drawable/add_vehicle"
         android:title="@string/add_vehicle" />
+    <item android:id="@+id/menuLogOut"
+        android:icon="@drawable/ic_logout"
+        android:title="@string/logout" />
+
+
 
 </menu>
